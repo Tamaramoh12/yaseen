@@ -29,6 +29,17 @@
 .news h1{
     margin-top: 0px;
 }
+/*Some Styles For Mobile & Tablet*/
+@media(max-width:992px){
+    #readMoreBtn{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:984px){
+    .btn{
+        margin-bottom: 20px;
+    }
+}
 /*End Main Style*/
 
 footer{

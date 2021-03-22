@@ -52,42 +52,38 @@
         </div>
 
         <!--details & cart-->
-        <div class="row">
+        <div class="row" id="details">
             <div class="container">
-                <!--User Deatils-->
+                <!--User Form-->
                 <div class="col-md-8">
                     <h3>User Details</h3>
-                    <div class="row">
+                    <div class="row form">
                         <div class="col-md-4">
                             <label for="fname">First Name</label>
                         </div>
                         <div class="col-md-4">
                             <label for="lname">Last Name</label>
                         </div>
-
-
-
                     </div>
-                    <div class="row">
+                    <div class="row form">
                         <div class="col-md-4">
                             <input type="text" id="fname">
                         </div>
                         <div class="col-md-4">
                             <input type="text" id="lname">
                         </div>
-
-
                     </div>
-                    
-                    <button type="button" class="btn btn-danger btn-block">Approved</button>
+                    <button type="button" id="approved" class="btn btn-danger btn-block">Approved</button>
                 </div>
                 <!--Cart-->
-                <div class="col-md-4">
+                <div  id="cart" class="col-md-4">
                     <h3>Your Cart</h3>
-                    <p>Purchase order number</p>
-                    <p>Amount</p>
-                    <p>Tax</p>
-                    <p>Total(USD)</p>
+                    <table>
+                        <tr><td>Purchase order number</td></tr>
+                        <tr><td>Amount</td> </tr>
+                        <tr><td>Tax</td> </tr>
+                        <tr><td>Total(USD)</td> </tr>
+                    </table>
                 </div>
             </div>
         </div>

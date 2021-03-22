@@ -1,3 +1,33 @@
+/*Main Style*/
 .jumbotron{
     text-align: center;
 }
+#details{
+    margin: 20px;
+}
+.form{
+    margin-left: -15px;
+}
+@media (max-width:989px){
+    input{
+        margin-bottom: 15px;
+    }
+}
+#approved{
+    margin-top: 20px;
+}
+@media (max-width:989px){
+    #approved{
+        margin-top: 10px;
+    }
+}
+table,td{
+    border: 1px solid black;
+    padding: 10px;
+    width: 100%;
+}
+/*Main Style*/
+
+/*Footer Style*/
+
+/*Footer Style*/

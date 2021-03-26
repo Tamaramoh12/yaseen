@@ -14,8 +14,8 @@
     <!--External Styles-->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/cartstyle.css">
-    <title>Cart Page</title>
+    <link rel="stylesheet" href="css/productsstyle.css">
+    <title>Products Page</title>
 </head>
 
 <body>
@@ -40,51 +40,53 @@
     </header>
 
     <main>
-        <!--Order Numer-->
+        <!--Slide Show Images-->
         <div class="jumbotron">
             <div class="row">
                 <div class="container">
-                    <h1>Purchase Order #2565</h1>
-                    <p>Please make sure that the below details for your purchase order is correct,
-                        and click approved to complete your order. Many Thanks
-                    </p>
+                    <h1>Slide Show Images</h1>
                 </div>
             </div>
         </div>
-
-        <!--details & cart-->
-        <div class="row" id="details">
+        <!--Details-->
+        <div class="row" id="introduction">
             <div class="container">
-                <!--User Form-->
                 <div class="col-md-8">
-                    <h3>User Details</h3>
-                    <div class="row form">
-                        <div class="col-md-4">
-                            <label for="fname">First Name</label>
-                        </div>
-                        <div class="col-md-4">
-                            <label for="lname">Last Name</label>
-                        </div>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quae optio soluta tempora
+                        velit omnis corrupti
+                        provident ab error? Est aspernatur cum nemo totam adipisci. Maiores vitae amet facilis! Officia?
+                    </p>
+                    <button type="button" id="readMoreBtn" class="btn btn-info">Read More</button>
+
+                    <!--Start Footer Buttons-->
+                    <hr>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-light">
+                            <i class="fa fa-arrow-left"></i>
+                            Older
+                        </button>
                     </div>
-                    <div class="row form">
-                        <div class="col-md-4">
-                            <input type="text" id="fname">
-                        </div>
-                        <div class="col-md-4">
-                            <input type="text" id="lname">
-                        </div>
+                    <div class="col-md-10">
+
                     </div>
-                    <button type="button" id="approved" class="btn btn-danger btn-block">Approved</button>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-light">
+                            Newer
+                            <i class="fa fa-arrow-right"></i>
+                        </button>
+                    </div>
+                    <!--End Footer Buttons-->
                 </div>
-                <!--Cart-->
-                <div  id="cart" class="col-md-4">
-                    <h3>Your Cart</h3>
-                    <table>
-                        <tr><td>Purchase order number</td></tr>
-                        <tr><td>Amount</td> </tr>
-                        <tr><td>Tax</td> </tr>
-                        <tr><td>Total(USD)</td> </tr>
-                    </table>
+
+                <div class="col-md-4">
+                    <p>Search here</p>
+                    <div class="search-container">
+                        <form action="/action_page.php">
+                            <input type="text" placeholder="Search.." name="search">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

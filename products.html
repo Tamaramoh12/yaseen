@@ -48,29 +48,30 @@
                 </div>
             </div>
         </div>
+
         <!--Details-->
-        <div class="row" id="introduction">
+        <div class="row">
             <div class="container">
-                <div class="col-md-8">
+                <div class="col-md-8" id="details">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod quae optio soluta tempora
                         velit omnis corrupti
                         provident ab error? Est aspernatur cum nemo totam adipisci. Maiores vitae amet facilis! Officia?
                     </p>
-                    <button type="button" id="readMoreBtn" class="btn btn-info">Read More</button>
+                    <button type="button" class="btn btn-info">Read More</button>
 
                     <!--Start Footer Buttons-->
                     <hr>
-                    <div class="col-md-1">
+                    <div class="col-md-2">
                         <button type="button" class="btn btn-light">
                             <i class="fa fa-arrow-left"></i>
                             Older
                         </button>
                     </div>
-                    <div class="col-md-10">
+                    <div class="col-md-8">
 
                     </div>
-                    <div class="col-md-1">
+                    <div class="col-md-2">
                         <button type="button" class="btn btn-light">
                             Newer
                             <i class="fa fa-arrow-right"></i>
@@ -80,13 +81,12 @@
                 </div>
 
                 <div class="col-md-4">
-                    <p>Search here</p>
-                    <div class="search-container">
+                    <!-- <div class="search-container"> -->
                         <form action="/action_page.php">
                             <input type="text" placeholder="Search.." name="search">
-                            <button type="submit"><i class="fa fa-search"></i></button>
+                            <button type="submit" id="search"><i class="fa fa-search"></i></button>
                         </form>
-                    </div>
+                    <!-- </div> -->
                 </div>
             </div>
         </div>
